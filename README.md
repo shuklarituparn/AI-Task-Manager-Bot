@@ -1,6 +1,6 @@
-# 🤖 AI Task Manager Bot Documentation
+# 🤖 AI Task Manager Bot
 
-The AI Task Manager Bot 📋🤖 is designed to assist users in managing their tasks on Telegram. It allows task addition and deletion using specific commands. The bot utilizes a Docker image named `ai_task_manager_bot` and relies on Redis 5 as its database. Additionally, it leverages LangChain and GIGACHAT from Sber as AI models.
+The AI Task Manager Bot 📋🤖 is designed to assist users in managing their tasks on Telegram. It allows task addition and deletion using specific commands. The bot utilizes Redis 5 as its database. Additionally, it leverages LangChain and GIGACHAT from Sber as AI models.
 
 ## Getting Started 🚀
 
@@ -11,13 +11,6 @@ To start the bot, you can follow these steps:
 1. Ensure you have all the necessary key files for the bot.
 2. Run the `main.py` file in your preferred Python environment.
 
-### Docker Container 🐳
-
-Alternatively, you can run the bot using Docker by executing the following command:
-
-```bash
-docker run -d ai_task_manager_bot
-```
 
 ## Bot Commands (Russian) 🇷🇺
 
@@ -39,7 +32,7 @@ Additionally, the following commands can be used to interact with the bot:
 
 ### Task Management
 
-When entering the "Добавление/Удаление" task mode, any input will be added or removed from the database. To exit the mode, input "End". The bot remains in the specified mode until it receives the "end" command.
+When entering the "Добавление" task mode, any input will be added to the database. To exit the mode, input "End". The bot remains in the specified mode until it receives the "end" command.
 
 ### Additional Notes ℹ️
 
